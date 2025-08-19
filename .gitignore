@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Environment (secrets)
+.env
+.env.*
+!.env.example
+
+# Node / JS
+node_modules/
+dist/
+build/
+out/
+coverage/
+*.log
+
+# Package managers
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Python (if any)
+__pycache__/
+*.pyc
+.venv/
+venv/
